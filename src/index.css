@@ -1,5 +1,6 @@
 :root {
   --green: rgb(39, 189, 39);
+  --red: #FF416C
 }
 
 * {
@@ -25,6 +26,11 @@ button {
 
 button.primary {
   background-color: var(--green);
+  color: white;
+}
+
+button.danger {
+  background-color: var(--red);
   color: white;
 }
 
